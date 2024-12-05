@@ -3,6 +3,7 @@ WORKDIR /app
 
 COPY . .
 
+
 RUN mvn javadoc:javadoc
 
 RUN mvn clean package -DskipTests
