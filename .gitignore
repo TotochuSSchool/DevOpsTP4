@@ -36,3 +36,7 @@ out/
 
 ### VS Code ###
 .vscode/
+node_modules
+
+# Local Netlify folder
+.netlify
